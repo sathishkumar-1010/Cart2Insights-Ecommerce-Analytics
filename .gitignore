@@ -1,0 +1,19 @@
+
+# Secrets and credentials
+.streamlit/secrets.toml
+streamlit/.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local backups
+app_backup.py
+
+# Dataset files - review before committing
+*.csv
+*.xlsx
+*.sql
